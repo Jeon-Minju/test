@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "Spoqa Han Sans";
+  font-weight: 200;
+  src: url(SpoqaHanSansThin.woff2) format("woff2"), url(SpoqaHanSansThin.woff) format("woff"), url(SpoqaHanSansThin.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Spoqa Han Sans";
+  font-weight: 300;
+  src: url(SpoqaHanSansLight.woff2) format("woff2"), url(SpoqaHanSansLight.woff) format("woff"), url(SpoqaHanSansLight.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Spoqa Han Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(SpoqaHanSansRegular.woff2) format("woff2"), url(SpoqaHanSansRegular.woff) format("woff"), url(SpoqaHanSansRegular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Spoqa Han Sans";
+  font-weight: 500;
+  src: url(SpoqaHanSansBold.woff2) format("woff2"), url(SpoqaHanSansBold.woff) format("woff"), url(SpoqaHanSansBold.ttf) format("truetype"); }
+
+html, body {
+  font-family: 'Spoqa Han Sans', 'Sans-serif' !important;
+  color: #434f5b; }
+
+body {
+  background-color: #f9fafc;
+  height: 100%; }
+
+.react-calendar {
+  width: 350px;
+  max-width: 90%;
+  margin-left: 5%;
+  color: white !important;
+  border: none;
+  font-family: 'Spoqa Han Sans', 'sans-serif';
+  line-height: 1.125em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .react-calendar * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .react-calendar *:before {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    .react-calendar *:after {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+  .react-calendar button {
+    margin: 0;
+    border: 0;
+    outline: none;
+    font-family: 'Spoqa Han Sans', 'sans-serif';
+    color: white; }
+    .react-calendar button:enabled:hover {
+      cursor: pointer; }
+
+.react-calendar__navigation {
+  height: 44px;
+  margin-bottom: 1em; }
+  .react-calendar__navigation button {
+    min-width: 44px;
+    background: none;
+    font-family: 'Spoqa Han Sans', 'sans-serif';
+    color: white !important; }
+    .react-calendar__navigation button:enabled:hover {
+      background-color: #4f92ff; }
+    .react-calendar__navigation button:enabled:focus {
+      background-color: #4f92ff; }
+  .react-calendar__navigation button[disabled] {
+    background-color: #f0f0f0; }
+
+.react-calendar__navigation__label {
+  font-size: 0.65em; }
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em; }
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em; }
+
+.react-calendar__month-view__weekNumbers {
+  font-weight: bold; }
+  .react-calendar__month-view__weekNumbers .react-calendar__tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    padding: calc(0.75em / 0.75) calc(0.5em / 0.75); }
+
+.react-calendar__year-view .react-calendar__tile {
+  padding: 2em 0.5em; }
+
+.react-calendar__decade-view .react-calendar__tile {
+  padding: 2em 0.5em; }
+
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em; }
+
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 0.75em 0.5em;
+  background: none; }
+  .react-calendar__tile:disabled {
+    background-color: #f0f0f0; }
+  .react-calendar__tile:enabled:hover {
+    background-color: #4f92ff; }
+  .react-calendar__tile:enabled:focus {
+    background-color: #4f92ff; }
+
+.react-calendar__tile--hasActive {
+  background: #297bff; }
+  .react-calendar__tile--hasActive:enabled:hover {
+    background: #4f92ff; }
+  .react-calendar__tile--hasActive:enabled:focus {
+    background: #4f92ff; }
+
+.react-calendar__tile--active {
+  background: #297bff;
+  color: white; }
+  .react-calendar__tile--active:enabled:hover {
+    background: #4f92ff; }
+  .react-calendar__tile--active:enabled:focus {
+    background: #4f92ff; }
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #4f92ff; }
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #5a5a8e !important; }
+
+.messenger {
+  width: 100%;
+  height: 100%;
+  min-height: 50vh; }
+
+.message-list-container {
+  padding: 0 15px; }
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0; }
+  .message .timestamp {
+    display: flex;
+    justify-content: center;
+    color: #999;
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin: 10px 0px;
+    text-transform: uppercase; }
+  .message .bubble-container {
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: flex; }
+
+.message.mine .bubble-container {
+  justify-content: flex-end; }
+
+.message.start .bubble-container .bubble {
+  margin-top: 10px;
+  border-radius: 20px; }
+
+.message.end .bubble-container .bubble {
+  border-radius: 20px;
+  margin-bottom: 10px; }
+
+.message.mine.start .bubble-container .bubble {
+  margin-top: 10px;
+  border-radius: 20px; }
+
+.message.mine.end .bubble-container .bubble {
+  border-radius: 20px;
+  margin-bottom: 10px; }
+
+.message .bubble-container .bubble {
+  margin: 1px 0px;
+  background: #efefef;
+  color: #000000;
+  padding: 5px 20px;
+  border-radius: 20px;
+  max-width: 75%;
+  border-radius: 20px;
+  word-break: keep-all; }
+
+.message.mine .bubble-container .bubble {
+  background: #dcebff;
+  color: #000000;
+  border-radius: 20px;
+  word-break: keep-all; }
+
+.message .bubble-container .bubble.blue {
+  background: #dcebff; }
+
+.message.mine .bubble-container .bubble.gray {
+  background: #efefef; }
+
+.compose {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background: #eeeeee;
+  border-top: 1px solid #eeeef1;
+  position: fixed;
+  width: calc(100% - 20px);
+  bottom: 0px; }
+  .compose .toolbar-button {
+    height: 60px;
+    background-color: #fff;
+    color: #297bff;
+    border: 1px solid #297bff; }
+    .compose .toolbar-button:hover {
+      color: #297bff; }
+
+@supports (backdrop-filter: blur(20px)) {
+  .compose {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px); } }
+
+.compose-input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #297bff;
+  height: 60px;
+  background: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #434f5b; }
+
+.compose-input::placeholder {
+  opacity: 0.5; }
+
+.toolbar-button {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  color: #297bff;
+  border: 1px solid #297bff; }
+  .toolbar-button:hover {
+    color: #297bff; }
+
+.message-button {
+  color: #297bff;
+  background: #ffffff;
+  padding: 5px 20px;
+  border: 1px solid #297bff;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer; }
+
+.message-button.btn-blue {
+  color: #ffffff;
+  background: #297bff; }
+

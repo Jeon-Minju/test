@@ -1,0 +1,59 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/addmenu": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/basicinfo": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/changereservation": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/question": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ],
+    "/reservation": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.866a4842.chunk.css",
+      "static/chunks/commons.7965d7768879303d51e6.js",
+      "static/runtime/main-2f592e07c986167486ae.js"
+    ]
+  }
+}
